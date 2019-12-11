@@ -3,8 +3,11 @@
  */
 package com.vd.oauth2sociallogin.configuration;
 
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
 /**
- * @author vivedesh
+ * @author Vivek Deshmukh
  *
  */
 public class WebMvcConfig implements WebMvcConfigurer{

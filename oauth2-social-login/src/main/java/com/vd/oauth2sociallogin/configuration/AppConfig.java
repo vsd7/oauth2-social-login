@@ -6,8 +6,10 @@ package com.vd.oauth2sociallogin.configuration;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 /**
- * @author vivedesh
+ * @author Vivek Deshmukh
  *
  */
 @ConfigurationProperties(prefix = "app")
